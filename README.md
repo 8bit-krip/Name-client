@@ -1,16 +1,25 @@
-# name-client
+# Solana Account Creation Example (Web3.js)
 
-To install dependencies:
+This project demonstrates how to:
+
+- Connect to a Solana RPC (local validator)
+- Generate new keypairs
+- Request an airdrop
+- Create a new on-chain account using `SystemProgram.createAccount`
+- Send and confirm a transaction
+- Verify the created account using RPC
+
+---
+
+## 📌 Prerequisites
+
+Make sure you have:
+
+- Node.js installed
+- Solana CLI installed
+- Local validator running
+
+Start validator:
 
 ```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.3.3. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
-# Name-client
+solana-test-validator
